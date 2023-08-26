@@ -18,10 +18,10 @@ Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTVhYTlmNWZjZjE5MmM2MGQ2NTI1NiIsInVzZXJOYW1lIjoiRHVjQW5oIiwiaWF0IjoxNjkyODUxNDY4fQ.uwQBE-ozAy1tWqEyAE23C2LjrPR1zY3CypmIzErCOs4
 
 {
-    "taskTitle":"Test task create title",
-    "taskNote":"test note string",
-    "taskComment":"test comment string",
-    "isDaily":"false",
-    "category":"mission everyday",
-    "deadlineTime":""
+    "taskTitle":"Test task create title 2",
+    "taskNote":"test note string 2",
+    "taskComment":"test comment string 2",
+    "category":"starting",
+    "deadlineTime":"",
+    "taskIndex":"2"
 }

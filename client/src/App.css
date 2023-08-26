@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+:root{
+  --color5: #18A558;
+  --color4: #ff355e;
+  --color3: #003B73;
+  --color2: #D4AF37;
+  --color1: #0074b7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Monaco', monospace;
+  background-color: #f3f5f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-title{
+  color: #003B73;
+  margin-left: 3vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all-task{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 98vw;
+  padding-left: 2vw;
+}
+
+.task-col{
+  width: 18vw;
+  margin-left: 1vw;
+  border: solid 1px gainsboro;
+  box-sizing: border-box;
+}
+
+.task-col h2{
+  margin: 5px 0px;
+}
+
+.col-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 5px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.col-head button{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: solid 1px gainsboro;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.daily-head,
+.daily-head button{
+  color: var(--color1);
 }
+
+.start-head, .start-head button{
+  color: var(--color2);
+}
+
+.doing-head, .doing-head button{
+  color: var(--color3);
+}
+
+.warn-head, .warn-head button{
+  color: var(--color4);
+}
+
+.done-head, .done-head button{
+  color: var(--color5);
+}
+

@@ -15,7 +15,7 @@ exports.getTaskByUserId = async (Id) =>{
 
 exports.updateTask = async (newData) =>{
     try{
-        const {_id, userId, taskTitle, oldImages, newImages, taskNote, taskComment, deadlineTime, isDaily, category} = newData;
+        const {_id, userId, taskTitle, oldImages, newImages, taskNote, taskComment, deadlineTime, category} = newData;
         const oldData = await Task.findById(_id)
     }
     catch(error){
