@@ -12,7 +12,7 @@ const taskRoutes = require('./routes/task.js');
 
 const PORT = domainConfig.port || 8080;
 const corsOptions = {
-    origin: '*',
+    origin: 'https://task-app-green.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
