@@ -1,3 +1,3 @@
-const DOMAIN = 'http://localhost:4000';
+const DOMAIN = 'https://ndajobserver.onrender.com';
 
 export default DOMAIN;
