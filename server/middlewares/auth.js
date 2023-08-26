@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const jwtkey = require('../configs/jwtkey.js');
+const jwtkey = require('../configs/jwtKey.js');
 const secretKey = jwtkey.secretKey;
 
 exports.authenToken = (req, res, next) => {

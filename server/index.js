@@ -19,9 +19,9 @@ const corsOptions = {
 const app = express ();
 app.use(express.json());
 app.use(cors(corsOptions));
+app.use(cookieParser());
 
 app.use('/user', userRoutes);
-app.use(cookieParser());
 app.use('/task', taskRoutes);
 
 app.get('/', (req, res)=>res.status(200).json({messsage: "hello world"}))
