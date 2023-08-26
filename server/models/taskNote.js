@@ -9,8 +9,8 @@ const taskSchema = new mongoose.Schema({
     createdAt: { type: Date, default: Date.now },
     modifiedAt: { type: Date },
     deadlineTime: { type: Date },
-    isDaily: { type: Boolean },
     category: { type: String },
+    taskIndex: {type: Number, require: true}
 })
 
 const Task = mongoose.model('Task', taskSchema);
